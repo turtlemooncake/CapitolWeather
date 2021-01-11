@@ -24,7 +24,7 @@ function App() {
   return (
     <div>
       <h1>
-        Current Weather Report For Country Capitals 
+        Current Weather Report For Country Capitols
       </h1>
       <div>
         <Filter country = {countries} fil = {filter} handle = {handleFilterChange} buttonFilter = {setFilter}/>
