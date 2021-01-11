@@ -5,8 +5,8 @@ const Country = ({one}) => {
   return(
     <div>
       <h1>{one.name} </h1>
-            <p>capital {one.capital}</p>
-            <p>population {one.population}</p>
+            <p>capitol: {one.capital}</p>
+            <p>population: {one.population}</p>
             <h1>languages</h1>
             <ul>
                 {one.languages.map( (each, i) =>
